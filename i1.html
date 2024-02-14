@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SGPA Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>SGPA Calculator</h1>
+    <form id="sgpaForm">
+      <div class="input-group">
+        <label for="subject1">Subject 1 (4 credits):</label>
+        <input type="number" id="subject1" min="0" max="100">
+      </div>
+      <div class="input-group">
+        <label for="subject2">Subject 2 (4 credits):</label>
+        <input type="number" id="subject2" min="0" max="100">
+      </div>
+      <div class="input-group">
+        <label for="subject3">Subject 3 (3 credits):</label>
+        <input type="number" id="subject3" min="0" max="100">
+      </div>
+      <div class="input-group">
+        <label for="subject4">Subject 4 (3 credits):</label>
+        <input type="number" id="subject4" min="0" max="100">
+      </div>
+      <div class="input-group">
+        <label for="subject5">Subject 5 (3 credits):</label>
+        <input type="number" id="subject5" min="0" max="100">
+      </div>
+      <div class="input-group">
+        <label for="subject6">Subject 6 (1 credit):</label>
+        <input type="number" id="subject6" min="0" max="100">
+      </div>
+      <div class="input-group">
+        <label for="subject7">Subject 7 (1 credit):</label>
+        <input type="number" id="subject7" min="0" max="100">
+      </div>
+      <div class="input-group">
+        <label for="subject8">Subject 8 (1 credit):</label>
+        <input type="number" id="subject8" min="0" max="100">
+      </div>
+      <button type="button" onclick="calculateSGPA()">Calculate SGPA</button>
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
